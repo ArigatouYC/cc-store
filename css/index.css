@@ -1,5 +1,6 @@
 * {
     font-weight: 600;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -7,6 +8,17 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.wrapper-noflex {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper-flex-left {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .top-left {
@@ -17,7 +29,11 @@
     height: 30px;
     line-height: 30px;
     background-color: #CCC;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.top a:hover {
+    color: #BE3736;
 }
 
 .welcome {
@@ -50,4 +66,179 @@
 .top-right-item:last-child a {
     padding-right: 0;
     border: 0;
+}
+
+.logoAndSearch .logo {
+    width: 200px;
+    height: 100px;
+
+    line-height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.logoAndSearch .search {
+    /* ?????????????????? */
+    font-size: 0;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logoAndSearch .search input {
+    width: 450px;
+    height: 40px;
+    border: #BE3736 solid 1px;
+}
+
+.search .btn {
+    background-color: #BE3736;
+    width: 80px;
+    height: 40px;
+    border: 0;
+}
+
+.search .btn:hover {
+    background-color: #a33535;
+}
+
+.search .btn span {
+    vertical-align: middle;
+    font-size: 20px;
+    color: #fff;
+}
+
+.listSwitch {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px #BE3736 solid;
+}
+
+.all {
+    width: 200px;
+    text-align: center;
+    background-color: #BE3736;
+}
+
+.all span {
+    font-size: 18px;
+    color: #fff;
+}
+
+.goodsList {
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+}
+
+.goodsList a {
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.goodsList li:hover {
+    background-color: #BE3736;
+}
+
+.goodsList li:hover a {
+    color: #fff;
+}
+
+.mid {
+    margin-top: 10px;
+}
+
+
+.left-list {
+    position: relative;
+    width: 200px;
+    height: 500px;
+    background-color: #F4F4F4;
+}
+
+.left-list li {
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.left-list li:hover {
+    background-color: #BE3736;
+}
+
+.left-list li:hover a {
+    color: #fff
+}
+
+.listDetail {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 200px;
+    width: 700px;
+    height: 500px;
+    background-color: #F4F4F4;
+    box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15);
+}
+.listDetail a{
+    color: #a33535;
+}
+
+.left-list li:hover .listDetail {
+    display: block;
+    cursor: pointer;
+}
+
+.swiper {
+    width: 700px;
+    height: 500px;
+    background-color: #CCC;
+}
+
+.rightContent {
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.news {
+    font-size: 14px;
+    color: #666;
+    border: #666 solid 1px;
+}
+
+.rightContent .news {
+    width: 280;
+    height: 230px;
+    padding: 20px 20px;
+}
+
+.newsTop {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+
+.newsItem li {
+    margin: 10px 0;
+}
+
+.iconBtn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.btnItem {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.iconBtn img {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
 }

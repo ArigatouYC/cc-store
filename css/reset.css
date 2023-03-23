@@ -54,7 +54,8 @@ hr {
 html { overflow-y: scroll; }
 
 a:link:hover{
-     color : rgb(202, 93, 93) !important;
+     /* color : rgb(202, 93, 93) !important; */
+     color : rgb(202, 93, 93);
      text-decoration: none;
  }
 
