@@ -1,3 +1,5 @@
+/* 注意版心左右的Padding */
+
 * {
     font-weight: 600;
     box-sizing: border-box;
@@ -95,6 +97,7 @@
     width: 80px;
     height: 40px;
     border: 0;
+    cursor: pointer;
 }
 
 .search .btn:hover {
@@ -108,8 +111,8 @@
 }
 
 .listSwitch {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    /* margin-top: 30px; */
+    margin: 10px 0;
     border-bottom: 2px #BE3736 solid;
 }
 
@@ -171,16 +174,16 @@
 .listDetail {
     display: none;
     position: absolute;
-    padding: 10px;
     top: 0;
     left: 200px;
     width: 700px;
     height: 500px;
     background-color: #F4F4F4;
-    box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
 }
-.listDetail a{
-    color: #a33535;
+
+.listDetail a {
+    padding: 10px;
 }
 
 .left-list li:hover .listDetail {
@@ -188,8 +191,12 @@
     cursor: pointer;
 }
 
+.left-list .insideList li:hover {
+    background-color: #F4F4F4;
+}
+
 .swiper {
-    width: 700px;
+    width: 680px;
     height: 500px;
     background-color: #CCC;
 }
@@ -197,7 +204,7 @@
 .rightContent {
     width: 300px;
     height: 500px;
-    padding: 10px;
+    /* padding: 10px; */
     padding-top: 0;
 }
 
@@ -205,12 +212,13 @@
     font-size: 14px;
     color: #666;
     border: #666 solid 1px;
+    /* box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15); */
 }
 
 .rightContent .news {
     width: 280;
     height: 230px;
-    padding: 20px 20px;
+    padding: 10px;
 }
 
 .newsTop {
@@ -220,21 +228,33 @@
     border-bottom: 1px solid #666;
 }
 
+.newsTop .more{
+    cursor: pointer;
+}
+
 .newsItem li {
     margin: 10px 0;
+    cursor: pointer;
 }
 
 .iconBtn {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-left: 5px;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+    margin-top: 10px;
+    /* box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15); */
+    border: #666 solid 1px;
 }
 
 .btnItem {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 .iconBtn img {
@@ -242,3 +262,174 @@
     width: 45px;
     height: 45px;
 }
+
+/* 秒杀专场 */
+
+.miaosha {
+    margin-top: 10px;
+}
+
+.miaosha1 {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: orange;
+}
+
+.miaoshaItem {
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+    background-color: tomato;
+}
+
+/* 秒杀专场 */
+
+/* 家用电器 */
+.jydq {
+    margin-top: 10px;
+}
+
+.jydqTop {
+    border-bottom: 2px #BE3736 solid;
+}
+
+.flexList {
+    display: flex;
+}
+
+.jydqList li {
+    padding: 0 10px;
+    font-size: 14px;
+    border-right: 1px solid #666;
+}
+
+.jydqList li:first-child {
+    padding-left: 0;
+}
+
+.jydqList li:last-child {
+    border: 0;
+    padding-right: 0;
+}
+
+.jydqList li:hover a {
+    color: #BE3736;
+}
+
+.bigPictures {
+    margin-bottom: 30px;
+}
+
+.bigPictureItemX {
+    height: 400px;
+    width: 320px;
+    background-color: pink;
+    border-right: #666 solid 1px;
+}
+
+.bigPictureItem {
+    height: 400px;
+    width: 220px;
+    background-color: pink;
+    border-right: #666 solid 1px;
+}
+
+.bigPictureItemTop {
+    height: 200px;
+    border-bottom: #666 solid 1px;
+
+}
+
+.bigPictureItemTopTxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+}
+
+.bigPictureItemTopTxt a:hover {
+    color: #BE3736;
+}
+
+.bigPictureItemTopTxtLeft p,
+.bigPictureItemTopTxtRight p {
+    margin: 15px 0;
+    padding: 5px 0;
+    border-bottom: #666 solid 1px;
+}
+
+
+/* 版权信息 */
+.copyright {
+    background-color: #453F3E;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.copyrightList {
+    font-size: 16px;
+}
+
+.copyrightList a {
+    color: #DED7D6;
+}
+
+.copyrightList div {
+    padding: 10px 0;
+}
+
+.copyrightList a:hover {
+    color: #BE3736;
+}
+
+.footerHr {
+    padding-bottom: 50px;
+    border-bottom: #DED7D6 solid 1px;
+}
+
+.end {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #DED7D6;
+}
+
+.end p {
+    float: left;
+    padding: 0 30px;
+}
+
+.end p a {
+    color: #DED7D6;
+}
+
+.end p a:hover {
+    color: #BE3736;
+}
+
+
+.end:first-child p {
+    padding-left: 0;
+}
+
+
+.footerID {
+    padding-top: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footerID p {
+    font-size: 16px;
+    color: #DED7D6;
+    text-align: center;
+}
+
+
+/* 版权信息 */
+
+
+/* 家用电器 */
