@@ -1,5 +1,44 @@
-.top{
-    height: 300px;
-    background-color: #ccc;
-    font-size: 100px;
+* {
+    font-weight: 600;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+}
+
+.top {
+    height: 30px;
+    line-height: 30px;
+    background-color: #CCC;
+    font-size: 16px;
+}
+
+.welcome {
+    margin-right: 20px;
+}
+
+
+.login a {
+    border-right: 1px solid #666;
+    padding: 0 10px;
+}
+
+.regiest {
+    padding: 0 10px;
+}
+
+.top-right {
+    display: flex;
+}
+
+.top-right-item a {
+    padding: 0 10px;
+    border-right: 1px solid #666;
 }
