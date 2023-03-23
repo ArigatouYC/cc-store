@@ -42,3 +42,12 @@
     padding: 0 10px;
     border-right: 1px solid #666;
 }
+
+.top-right-item:first-child a {
+    padding-left: 0;
+}
+
+.top-right-item:last-child a {
+    padding-right: 0;
+    border: 0;
+}
