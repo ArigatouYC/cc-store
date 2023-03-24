@@ -23,6 +23,7 @@
     display: flex;
 }
 
+/* top */
 .top-left {
     display: flex;
 }
@@ -41,6 +42,7 @@
 .welcome {
     margin-right: 20px;
 }
+
 
 
 .login a {
@@ -70,6 +72,10 @@
     border: 0;
 }
 
+/* top */
+
+
+/* logoAndSearch */
 .logoAndSearch .logo {
     width: 200px;
     height: 100px;
@@ -109,6 +115,10 @@
     font-size: 20px;
     color: #fff;
 }
+/* logoAndSearch */
+
+
+/* Top Switch Menu */
 
 .listSwitch {
     /* margin-top: 30px; */
@@ -146,9 +156,11 @@
     color: #fff;
 }
 
-.mid {
-    margin-top: 10px;
-}
+/* Top Switch Menu */
+
+
+
+/* Left Switch Menu */
 
 
 .left-list {
@@ -195,24 +207,27 @@
     background-color: #F4F4F4;
 }
 
+/* Left Switch Menu */
+
+
+
 .swiper {
     width: 680px;
     height: 500px;
     background-color: #CCC;
 }
 
+/* 轮播右边的CC快报和下面内容 */
 .rightContent {
     width: 300px;
     height: 500px;
-    /* padding: 10px; */
     padding-top: 0;
 }
 
 .news {
     font-size: 14px;
     color: #666;
-    border: #666 solid 1px;
-    /* box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15); */
+    box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15);
 }
 
 .rightContent .news {
@@ -245,8 +260,8 @@
     width: 300px;
     height: 260px;
     margin-top: 10px;
-    /* box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15); */
-    border: #666 solid 1px;
+    box-shadow:0px 0px 24px rgba(0, 0, 0, 0.15);
+    /* border: #666 solid 1px; */
 }
 
 .btnItem {
@@ -262,6 +277,8 @@
     width: 45px;
     height: 45px;
 }
+
+/* 轮播右边的CC快报和下面内容 */
 
 /* 秒杀专场 */
 
@@ -361,6 +378,7 @@
     padding: 5px 0;
     border-bottom: #666 solid 1px;
 }
+/* 家用电器 */
 
 
 /* 版权信息 */
@@ -430,6 +448,3 @@
 
 
 /* 版权信息 */
-
-
-/* 家用电器 */
